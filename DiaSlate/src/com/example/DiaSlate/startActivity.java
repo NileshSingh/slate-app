@@ -17,7 +17,7 @@ public class startActivity extends Activity{
 			@Override
 			public void run(){
 				try{
-					sleep(3000); /* screen is displayed for 3 secs */
+					sleep(2000); /* screen is displayed for 3 secs */
 				}catch(InterruptedException e){
 					e.printStackTrace();
 				}finally{
